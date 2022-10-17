@@ -10,6 +10,11 @@ numbers = [     [10, 11, 12, 13, 14],
 
 rnum = len(numbers)
 cnum = len(numbers[0])
+for i in range (cnum):
+    sum=0;
+    for j in range (rnum):
+        sum+=numbers[j][i];
+    print(f'The sum of column {i+1} is: {sum}');
 
 # ******************************
 # Make your Code
